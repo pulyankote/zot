@@ -1,0 +1,13 @@
+ {
+    "providers": {
+      "custom": {
+        "schemaVersion": "1.0",
+        "example": {
+          "id": "self-hosted-provider",
+          "baseUrl": "http://localhost:8080",
+          "modelListEndpoint": "/v1/models",
+          "credentials": { "apiKey": "self-hosted-key" }
+        }
+      }
+    }
+  }
